@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /privacy.html
+
+Sitemap: https://54toshi.com/sitemap.xml

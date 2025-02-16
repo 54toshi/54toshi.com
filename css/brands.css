@@ -35,7 +35,7 @@
 .button.button-default {
 	--button-text:#ffffff;
 	--button-background:#2457F5;
-	--button-border:1px solid #ffffff;
+	/* --button-border:1px solid #ffffff; */
 }
 
 /* Amazon */
@@ -218,7 +218,6 @@
 .button-github {
 	--button-text:#ffffff;
 	--button-background:#000000;
-	--button-border:1px solid #FFFFFF;
 }
 
 /* GitLab */
@@ -602,5 +601,17 @@
 .button-zoom {
 	--button-text:#ffffff;
 	--button-background:#0B5CFF;
-  --button-border:1px solid #FFFFFF;
+  	--button-border:1px solid #FFFFFF;
+}
+
+/* tryhackme */
+.button-tryhackme {
+	--button-text:#ffffff;
+	--button-background: rgb(33, 44, 66);
+}
+
+/* hackthebox */
+.button-hackthebox {
+	--button-text:#ffffff;
+	--button-background:#1e1e1e;
 }
