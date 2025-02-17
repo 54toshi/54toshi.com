@@ -1,0 +1,23 @@
+{
+  "regions": ["fra1"],
+  "functionFailoverRegions": ["cdg1", "lhr1", "iad1"],
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "redirects": [
+    {
+      "source": "/view-source",
+      "destination": "https://github.com/54toshi/54toshi.com"
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/ingest/static/:path*",
+      "destination": "https://eu-assets.i.posthog.com/static/:path*"
+    },
+    {
+      "source": "/ingest/:path*",
+      "destination": "https://eu.i.posthog.com/:path*"
+    }
+  ],
+  "collectMetrics": false
+}
