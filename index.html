@@ -5,126 +5,236 @@
   - theme-light: Forces light theme
   - theme-dark: Forces dark theme
 -->
-<html class="theme-auto" lang="en"> <!-- Update`class="theme-auto" with your preference -->
+<html class="theme-auto" lang="en">
+  <!-- Update`class="theme-auto" with your preference -->
 
   <head>
     <!-- Character encoding for the document -->
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
 
     <!-- Viewport settings for responsive design -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-        
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
     <!-- Page Title -->
     <title>54toshi</title>
 
     <!-- Meta Description: Summarize page content -->
-    <meta name="description" content="Places on the internet of 54toshi">
+    <meta name="description" content="Places on the internet of 54toshi" />
 
     <!-- Keywords: Relevant search terms -->
-    <meta name="keywords" content="Johannes P, Cybersecurity, Software Engineering, 54toshi, GitHub, LinkedIn, TryHackMe, Online Portfolio, Developer">
+    <meta
+      name="keywords"
+      content="Johannes P, Cybersecurity, Software Engineering, 54toshi, GitHub, LinkedIn, TryHackMe, Online Portfolio, Developer"
+    />
 
     <!-- Author of the page -->
-    <meta name="author" content="54toshi">
+    <meta name="author" content="54toshi" />
 
     <!-- Canonical URL: Important for avoid duplicate content -->
-    <link rel="canonical" href="https://54toshi.com">
+    <link rel="canonical" href="https://54toshi.com" />
 
     <!-- Open Graph data for better link sharing -->
-    <meta property="og:title" content="54toshi"/>
-    <meta property="og:description" content="Places on the internet of 54toshi"/>
-    <meta property="og:image" content="https://54toshi.com/images/tux.gif"/>
-    <meta property="og:url" content="https://54toshi.com"/>
-    <meta property="og:type" content="website"/>
+    <meta property="og:title" content="54toshi" />
+    <meta
+      property="og:description"
+      content="Places on the internet of 54toshi"
+    />
+    <meta property="og:image" content="https://54toshi.com/images/tux.gif" />
+    <meta property="og:url" content="https://54toshi.com" />
+    <meta property="og:type" content="website" />
 
     <!-- Twitter Card data -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="54toshi">
-    <meta name="twitter:description" content="Places on the internet of 54toshi">
-    <meta name="twitter:image" content="https://54toshi.com/images/tux.gif">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-        
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="54toshi" />
+    <meta
+      name="twitter:description"
+      content="Places on the internet of 54toshi"
+    />
+    <meta name="twitter:image" content="https://54toshi.com/images/tux.gif" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
     <!-- Page Title - Change this to your name/brand (50-60 characters recommended) -->
     <title>54toshi</title>
-    <link rel="icon" type="image/x-icon" href="/images/tux.gif"> <!-- Update this with your own favicon -->
-    
+    <link rel="icon" type="image/x-icon" href="/images/tux.gif" />
+    <!-- Update this with your own favicon -->
+
     <!-- Meta Description - Write a description (150-160 characters recommended) -->
-    <meta name="description" content="Places on the internet of Johannes P. aka 54toshi">
-    
+    <meta
+      name="description"
+      content="Places on the internet of Johannes P. aka 54toshi"
+    />
+
     <!-- Keywords -->
-    <meta name="keywords" content="Johannes P, Cybersecurity, 54toshi, Software Engineer ">
-    
+    <meta
+      name="keywords"
+      content="Johannes P, Cybersecurity, 54toshi, Software Engineer "
+    />
+
     <!-- Canonical URL - Helps prevent duplicate content issues -->
-    <meta rel="canonical" href="https://yourwebsite.com">
-    
+    <meta rel="canonical" href="https://yourwebsite.com" />
+
     <!-- Author Information -->
-    <meta name="author" content="54toshi">
-    
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/brands.css">
+    <meta name="author" content="54toshi" />
+
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/brands.css" />
 
     <!-- posthog -->
-    <script>
-    !function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.crossOrigin="anonymous",p.async=!0,p.src=s.api_host.replace(".i.posthog.com","-assets.i.posthog.com")+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="init capture register register_once register_for_session unregister unregister_for_session getFeatureFlag getFeatureFlagPayload isFeatureEnabled reloadFeatureFlags updateEarlyAccessFeatureEnrollment getEarlyAccessFeatures on onFeatureFlags onSessionId getSurveys getActiveMatchingSurveys renderSurvey canRenderSurvey getNextSurveyStep identify setPersonProperties group resetGroups setPersonPropertiesForFlags resetPersonPropertiesForFlags setGroupPropertiesForFlags resetGroupPropertiesForFlags reset get_distinct_id getGroups get_session_id get_session_replay_url alias set_config startSessionRecording stopSessionRecording sessionRecordingStarted captureException loadToolbar get_property getSessionProperty createPersonProfile opt_in_capturing opt_out_capturing has_opted_in_capturing has_opted_out_capturing clear_opt_in_out_capturing debug getPageViewId".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
-    posthog.init('phc_GYhhfGimz1Qhht34gIisiNOMI1gKIYbWincwto6sCDn', {
-        api_host: 'https://www.54toshi.com/ingest',
-        ui_host: 'https://eu.posthog.com',
-        person_profiles: 'identified_only', // or 'always' to create profiles for anonymous users as well
-    })
-    </script>
+    <!-- <script>
+      !(function (t, e) {
+        var o, n, p, r;
+        e.__SV ||
+          ((window.posthog = e),
+          (e._i = []),
+          (e.init = function (i, s, a) {
+            function g(t, e) {
+              var o = e.split(".");
+              2 == o.length && ((t = t[o[0]]), (e = o[1])),
+                (t[e] = function () {
+                  t.push([e].concat(Array.prototype.slice.call(arguments, 0)));
+                });
+            }
+            ((p = t.createElement("script")).type = "text/javascript"),
+              (p.crossOrigin = "anonymous"),
+              (p.async = !0),
+              (p.src =
+                s.api_host.replace(".i.posthog.com", "-assets.i.posthog.com") +
+                "/static/array.js"),
+              (r = t.getElementsByTagName("script")[0]).parentNode.insertBefore(
+                p,
+                r
+              );
+            var u = e;
+            for (
+              void 0 !== a ? (u = e[a] = []) : (a = "posthog"),
+                u.people = u.people || [],
+                u.toString = function (t) {
+                  var e = "posthog";
+                  return (
+                    "posthog" !== a && (e += "." + a), t || (e += " (stub)"), e
+                  );
+                },
+                u.people.toString = function () {
+                  return u.toString(1) + ".people (stub)";
+                },
+                o =
+                  "init capture register register_once register_for_session unregister unregister_for_session getFeatureFlag getFeatureFlagPayload isFeatureEnabled reloadFeatureFlags updateEarlyAccessFeatureEnrollment getEarlyAccessFeatures on onFeatureFlags onSessionId getSurveys getActiveMatchingSurveys renderSurvey canRenderSurvey getNextSurveyStep identify setPersonProperties group resetGroups setPersonPropertiesForFlags resetPersonPropertiesForFlags setGroupPropertiesForFlags resetGroupPropertiesForFlags reset get_distinct_id getGroups get_session_id get_session_replay_url alias set_config startSessionRecording stopSessionRecording sessionRecordingStarted captureException loadToolbar get_property getSessionProperty createPersonProfile opt_in_capturing opt_out_capturing has_opted_in_capturing has_opted_out_capturing clear_opt_in_out_capturing debug getPageViewId".split(
+                    " "
+                  ),
+                n = 0;
+              n < o.length;
+              n++
+            )
+              g(u, o[n]);
+            e._i.push([i, s, a]);
+          }),
+          (e.__SV = 1));
+      })(document, window.posthog || []);
+      posthog.init("phc_GYhhfGimz1Qhht34gIisiNOMI1gKIYbWincwto6sCDn", {
+        api_host: "https://www.54toshi.com/ingest",
+        ui_host: "https://eu.posthog.com",
+        person_profiles: "identified_only", // or 'always' to create profiles for anonymous users as well
+      });
+    </script> -->
   </head>
 
-<body>
-
+  <body>
     <div class="container">
-        <div class="column">
-
-            <!-- 
+      <div class="column">
+        <!-- 
               - avatar--rounded: Automatically rounds the image
               - avatar--soft: Slightly rounds the image
               - avatar--none: Removes any rounding
             -->
-            <img class="avatar avatar--none" src="images/tux.gif" style="object-fit: contain;"  alt="">
+        <img
+          class="avatar avatar--none"
+          src="images/tux.gif"
+          style="object-fit: contain"
+          alt=""
+        />
 
-            <h1>
-              <div>54toshi</div>
-            </h1>
+        <h1>
+          <div>54toshi</div>
+        </h1>
 
-            <!-- <p>Here are my locations on the internet </p> -->
+        <!-- <p>Here are my locations on the internet </p> -->
 
-            <div class="button-stack" role="navigation">
+        <div class="button-stack" role="navigation">
+          <!-- GitHub -->
+          <a
+            class="button button-github"
+            href="https://github.com/54toshi"
+            target="_blank"
+            rel="noopener"
+            role="button"
+            ><img
+              class="icon"
+              aria-hidden="true"
+              src="images/icons/github.svg"
+              alt="GitHub Logo"
+            />GitHub</a
+          >
 
-              <!-- GitHub -->
-              <a class="button button-github" href="https://github.com/54toshi" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons/github.svg" alt="GitHub Logo">GitHub</a>
+          <!-- LinkedIn -->
+          <a
+            class="button button-linked"
+            href="https://linkedin.com/in/johannes-p-939a16334"
+            target="_blank"
+            rel="noopener"
+            role="button"
+            ><img
+              class="icon"
+              aria-hidden="true"
+              src="images/icons/linkedin.svg"
+              alt="LinkedIn Logo"
+            />LinkedIn</a
+          >
 
-              <!-- LinkedIn -->
-              <a class="button button-linked" href="https://linkedin.com/in/johannes-p-939a16334" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons/linkedin.svg" alt="LinkedIn Logo">LinkedIn</a>
+          <!-- GitLab -->
+          <!-- <a class="button button-gitlab" href="#" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons/gitlab.svg" alt="GitLab Logo">GitLab</a> -->
 
-              <!-- GitLab -->
-              <!-- <a class="button button-gitlab" href="#" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons/gitlab.svg" alt="GitLab Logo">GitLab</a> -->
+          <!-- Goodreads -->
+          <!-- <a class="button button-goodreads" href="#" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons/goodreads.svg" alt="Goodreads Logo">Goodreads</a> -->
 
-              <!-- Goodreads -->
-              <!-- <a class="button button-goodreads" href="#" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons/goodreads.svg" alt="Goodreads Logo">Goodreads</a> -->
+          <!-- TryHackMe -->
+          <a
+            class="button button-tryhackme"
+            href="https://tryhackme.com/p/54toshi"
+            target="_blank"
+            rel="noopener"
+            role="button"
+            ><img
+              class="icon"
+              aria-hidden="true"
+              src="images/icons/tryhackme.svg"
+              alt="TryHackMe Logo"
+            />TryHackMe</a
+          >
 
-              <!-- TryHackMe -->
-              <a class="button button-tryhackme" href="https://tryhackme.com/p/54toshi" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons/tryhackme.svg" alt="TryHackMe Logo">TryHackMe</a>
+          <!-- HackTheBox -->
+          <!-- <a class="button button-hackthebox" href="https://app.hackthebox.com/profile/1743551" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" style="filter: invert(100%);" src="images/icons/hackthebox.svg" alt="HackTheBox Logo">HackTheBox</a> -->
 
-              <!-- HackTheBox -->
-              <!-- <a class="button button-hackthebox" href="https://app.hackthebox.com/profile/1743551" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" style="filter: invert(100%);" src="images/icons/hackthebox.svg" alt="HackTheBox Logo">HackTheBox</a> -->
-              
-              <!-- Generic Email -->
-              <a class="button button-default" href="mailto:jp@alp-sec.org" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons/generic-email.svg" alt="Email Icon">jp@alp-sec.org</a>
+          <!-- Generic Email -->
+          <a
+            class="button button-default"
+            href="mailto:jp@alp-sec.org"
+            target="_blank"
+            rel="noopener"
+            role="button"
+            ><img
+              class="icon"
+              aria-hidden="true"
+              src="images/icons/generic-email.svg"
+              alt="Email Icon"
+            />jp@alp-sec.org</a
+          >
+        </div>
 
-
-      </div>
-        
-      <!-- <footer>
+        <!-- <footer>
         <a href="privacy.html">Privacy Policy</a> | Build your own by forking <a href="https://littlelink.io" target="_blank" rel="noopener">LittleLink</a>
       </footer> -->
-    
+      </div>
     </div>
-  </div>
-
-</body>
-
+  </body>
 </html>
